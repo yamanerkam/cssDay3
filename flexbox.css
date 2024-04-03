@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+.container {
+    margin: 10px;
+    border: 1px solid green;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 10px;
+    width: 75px;
+}
+
+.item1 {
+    height: 50px;
+
+    background-color: aquamarine;
+}
+
+.item2 {
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.item3 {
+    height: 150px;
+    background-color: violet;
+}

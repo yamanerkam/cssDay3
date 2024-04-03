@@ -1,0 +1,16 @@
+.img2 {
+    float: right;
+
+    width: 100px;
+    height: 100px;
+}
+
+.img1 {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.parag {
+    clear: left;
+}
