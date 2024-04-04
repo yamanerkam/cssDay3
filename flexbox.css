@@ -7,27 +7,28 @@
     border: 1px solid green;
     background-color: burlywood;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .item {
     margin: 10px;
     width: 75px;
+    height: 75px;
 }
 
 .item1 {
-    height: 50px;
-
+    flex-shrink: 0;
     background-color: aquamarine;
 }
 
 .item2 {
-    height: 100px;
+    flex-grow: 2;
+    flex-basis: 0;
     background-color: blueviolet;
 }
 
 .item3 {
-    height: 150px;
+    flex-grow: 1;
+
     background-color: violet;
 }
